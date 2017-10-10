@@ -3,10 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
 	<link rel="stylesheet" href="style.css">
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> <!-- JQUERY -->
-	<script src="js/menu_script.js"></script>
+	<script type="text/javascript"  src="jquery-1.9.1.min.js"></script> <!-- JQUERY -->
+	<script type="text/javascript"  src="js/menu_script.js"></script>
 </head> 
 	<body>
 		<div class="header-block">
@@ -16,9 +17,7 @@
 		</div>
 		<nav class="menu-block">
 			<div class="menu-visible">
-				<button class="menu-buttom">
-					<span>
-					</span>
+				<button class="fa fa-bars menu-button" datas="off">
 				</button>
 				<div class="menu-title">
 					MENU
@@ -26,27 +25,27 @@
 			</div>
 			<div class="menu-unvisible">
 				<div class="menu-logo"></div>
-				<div class="menu-list">
-					<ul>
-							<li>Menu
+				<div class="menu-list-block">
+					<ul class="menu-list">
+							<li><a href="">Menu</a>
 								<ul>
-									<li>Submenu</li>
-									<li>Submenu</li>
-									<li>Submenu</li>
+									<li><a href="">Submenu</a></li>
+									<li><a href="">Submenu</a></li>
+									<li><a href="">Submenu</a></li>
 								</ul>
 							</li>
-							<li>Menu
+							<li><a href="">Menu</a>
 								<ul>
-									<li>Submenu</li>
-									<li>Submenu</li>
-									<li>Submenu</li>
+									<li><a href="">Submenu</a></li>
+									<li><a href="">Submenu</a></li>
+									<li><a href="">Submenu</a></li>
 								</ul>
 							</li>
-							<li>Menu
+							<li><a href="">Menu</a>
 								<ul>
-									<li>Submenu</li>
-									<li>Submenu</li>
-									<li>Submenu</li>
+									<li><a href="">Submenu</a></li>
+									<li><a href="">Submenu</a></li>
+									<li><a href="">Submenu</a></li>
 								</ul>
 							</li>
 						</ul>	
@@ -58,5 +57,6 @@
 			<div class="under-title">ОКУНИСЬ В МИР СОВЕРШЕННОГО ЗВУЧАНИЯ</div>
 		</div>
 		<div class="second"></div>
+		
 	</body>
 </html>

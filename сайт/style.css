@@ -4,8 +4,8 @@ body{
 
 }
 .header-block{
-	height: 50px;
-  width: 1300px;
+	height: 50%;
+  width: 100%;
   margin: 0;
   padding: 0;
 	background: url(images/fondgrey.jpg);
@@ -17,6 +17,56 @@ body{
 	text-align:center;
 	 vertical-align: middle;
 }
-.menu-unvisible ul{
-	list-style:none;
+.menu-block{
+	position: fixed;    
+	z-index: 9999;    
+	top: 100px;    
+	left: 0px;
+}
+.menu-button{
+	color: #fff;    
+	width: 43px;    
+	height: 39px;    
+	text-align: center;    
+	font-size: 34px;        
+	background: #1c4482;    
+	padding-top: 4px;    
+	cursor: pointer;
+}
+.menu-button:hover{
+	background: #fff;
+	olor: #1c4482;
+} 
+.menu-button{
+	float:left;
+}
+.menu-list-block{
+	float:left;
+	margin-left:-1000px;
+	visibility: visible;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	background: #fff;
+	padding: 15px 25px;
+}
+.menu-list{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+.menu-list li{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+.menu-list li{
+	margin-buttom:5px;
+}
+.menu-list li a{
+	font-size: 17px;
+	color: #dc0056;
+	text-decoration: none;
+}
+.menu-list li a:hover{
+	color:#222;
 }

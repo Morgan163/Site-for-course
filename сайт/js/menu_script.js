@@ -1,18 +1,14 @@
-$(function(){
-    
-    var $burger = $('.menu-button');
-    
-    var $menu = $('.menu-list');
-    
-    $burger.click(function(){
+'use strict';
 
-        if($menu.hasClass('active')){
-        
-            $menu.slideDown('normal').removeClass('active');
-        }
-        else{
-            
-            $menu.slideUp('normal').addClass('active');
-        }
+(function() {
+  var body = document.body;
+  var burgerMenu = document.getElementsByClassName('b-menu')[0];
+  var burgerContain = document.getElementsByClassName('b-container')[0];
+  var burgerNav = document.getElementsByClassName('b-nav')[0];
+
+  burgerMenu.addEventListener('click', function toggleClasses() {
+    [body, burgerContain, burgerNav].forEach(function (el) {
+      el.classList.toggle('open');
     });
-
+  }, false);
+})();
