@@ -8,7 +8,7 @@ body,html{
 }
 .header{
 	height:18%;
-	background:url(images/vBaNDgA.jpeg);
+	background:url(images/6.png);
 	background-size:cover;
 }
 .header-block{
@@ -16,8 +16,6 @@ body,html{
   width: 100%;
   margin: 0;
   padding: 0;
-  
-	/* background: url(images/fondgrey.jpg); */
 }
 .header-title{
 	position:absolute;
@@ -25,25 +23,25 @@ body,html{
   top:0;
 	left:5%;
 	text-decoration:none;
-	color:#E0FFFF;
+	color:rgba(254, 74, 6,1);
 	font-family: 'Intro', sans-serif;
 	font-size:250%;
 }
 .header-title a{
 	text-decoration:none;
-	color:#E0FFFF;
+	color:rgba(254, 74, 6,1);
 }
 .first{
 	height:40%;
 	weight:100%;	
 	
 }
-.up-title{
+/* .up-title{
 	position:relative;
 	top:40%;
 	font-family: 'Intro', sans-serif;
 	font-size:100%;
-	color:#E0FFFF;
+	color:#1E90FF;
 	text-align:center;
 }
 .title{
@@ -53,7 +51,7 @@ body,html{
 	font-size:100%;
 	color:#E0FFFF;
 	text-align:center;
-}
+} */
 .second{
 	height:16%;
 }
@@ -67,21 +65,21 @@ body,html{
 .left-second .alphard-logo{
 	background:url(images/alphard_logo.png);
 	position:absolute;
-	left:10%;
+	left:0%;
+	top:0%;
 	width:311px;
   height:100px;
 }
 .alphard-system{
-	background-color:url(images/alphard-apocalypse-power.png);
+	background:url(images/alphard-apocalypse-power.png);
 	position:absolute;
-	width:300px;
-  height:215px;
-	left:30%;
-	top:30%;
-	overflow:auto;
+	width:400px;
+  height:230px;
+	left:18%;
+	top:25%;
 }
 .right-second{
-	background-color:#F5F5F5;
+	background-color:#C0C0C0;
 }
 .right-second .kicx-logo{
 	background:url(images/kicx-logo.png);
@@ -92,7 +90,14 @@ body,html{
   height:100px;
   overflow: auto;
 }
-
+.kicx-system{
+  background:url(images/kicx-sub.png);
+	position:absolute;
+	width:250px;
+  height:250px;
+	left:50%;
+	top:6%;
+}
 .second .right-second{
 	position:absolute;
 	right:0px;
@@ -101,8 +106,31 @@ body,html{
 	height:50%;
 }
 .third{
-	background-color:#E00FFF;
-	height:1000px;
+	
+	height:25%;
+	width:100%;
+}
+.third .left-third{
+	background-color:rgba(0, 0, 0,1);
+	height:70%;
+	width:35%;
+	position:absolute;
+	left:0px;
+}
+.third .herz-logo{
+	position:absolute;
+	background:url(images/herz-logo.png);
+	width:350px;
+	height:50px;
+	left:10%;
+	top:40%;
+}
+.third .right-third{
+	background-color:rgba(254, 74, 6,1);
+	height:70%;
+	width:65%;
+	position:absolute;
+	right:0px;
 }
 .menu-block{
 	height:100%;
