@@ -70,15 +70,15 @@ body,html{
 	left:10%;
 	width:311px;
   height:100px;
-  overflow:auto;
 }
-.alphard-logo .alphard-system{
-	background:url(images/alphard-apocalypse-power.png);
+.alphard-system{
+	background-color:url(images/alphard-apocalypse-power.png);
 	position:absolute;
+	width:300px;
+  height:215px;
 	left:30%;
 	top:30%;
-	width:200px;
-  height:115px;
+	overflow:auto;
 }
 .right-second{
 	background-color:#F5F5F5;
