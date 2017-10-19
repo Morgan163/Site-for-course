@@ -132,13 +132,24 @@ body,html{
 	position:absolute;
 	right:0px;
 }
+.right-third .hertz-system{
+	position:absolute;
+	background:url(images/hertz-audio.png);
+	width:450px;
+	height:365px;
+	left:25%;
+	top:5%;
+}
+
+
+
 .menu-block{
 	height:100%;
 	position: fixed;    
 	z-index: 9999;    
 	top: 0px;    
 	left: 0px;
-	heqght:100%;
+	height:100%;
 }
 .menu-title{
 	font-family: 'Intro', sans-serif;
