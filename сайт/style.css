@@ -63,40 +63,40 @@ body,html{
 	height:50%;
 }
 .left-second .alphard-logo{
-	background:url(images/alphard_logo.png);
+	background:url(images/alphard_logo.png) 100% 100% no-repeat;
 	position:absolute;
-	left:0%;
-	top:0%;
-	width:311px;
-  height:100px;
+	left:-20%;
+	top:-25%;
+	width:80%;
+  height:50%;
 }
 .alphard-system{
-	background:url(images/alphard-apocalypse-power.png);
+	background:url(images/alphard-apocalypse-power.png) 100% 100% no-repeat;
 	position:absolute;
-	width:400px;
-  height:230px;
-	left:18%;
-	top:25%;
+	width:100%;
+  height:100%;
+	left:-30%;
+	top:-25%;
 }
 .right-second{
 	background-color:#C0C0C0;
 }
 .right-second .kicx-logo{
-	background:url(images/kicx-logo.png);
+	background:url(images/kicx-logo.png)100% 100% no-repeat;
 	position:absolute;
-	left:5%;
-	top:20%;
-	width:200px;
-  height:100px;
+	left:-15%;
+	top:5%;
+	width:50%;
+  height:50%;
   overflow: auto;
 }
 .kicx-system{
-  background:url(images/kicx-sub.png);
+  background:url(images/kicx-sub.png)100% 100% no-repeat;
 	position:absolute;
-	width:250px;
-  height:250px;
-	left:50%;
-	top:6%;
+	width:80%;
+  height:80%;
+	left:0%;
+	top:-10%;
 }
 .second .right-second{
 	position:absolute;
@@ -119,11 +119,11 @@ body,html{
 }
 .third .herz-logo{
 	position:absolute;
-	background:url(images/herz-logo.png);
-	width:350px;
-	height:50px;
-	left:10%;
-	top:40%;
+	background:url(images/herz-logo.png)100% 100% no-repeat;
+	width:100%;
+	height:30%;
+	left:-20%;
+	top:15%;
 }
 .third .right-third{
 	background-color:rgba(254, 74, 6,1);
@@ -134,11 +134,11 @@ body,html{
 }
 .right-third .hertz-system{
 	position:absolute;
-	background:url(images/hertz-audio.png);
-	width:450px;
-	height:365px;
-	left:25%;
-	top:5%;
+	background:url(images/hertz-audio.png)100% 100% no-repeat;
+	width:80%;
+	height:80%;
+	left:-10%;
+	top:10%;
 }
 
 
