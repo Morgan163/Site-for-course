@@ -1,0 +1,87 @@
+body,html{
+	margin: 0px;
+	padding: 0px;
+	height:100%;
+}
+.all-wrap{
+	height:300%;
+}
+.header{
+	height:18%;
+	background:url(images/alphard-systems/maxresdefault.jpg) 100% 60% no-repeat;
+	background-size:cover;
+}
+.header-block{
+	height: 5%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.header-title{
+	position:absolute;
+	width:20%;
+	top:0;
+	left:5%;
+	text-decoration:none;
+	color:rgba(254, 74, 6,1);
+	font-family: 'Intro', sans-serif;
+	font-size:250%;
+}
+.header-title a{
+	text-decoration:none;
+	color:rgba(254, 74, 6,1);
+	text-shadow: black 0 0 5px;
+}
+.alphard-powers{
+	position:absolute;
+	background-color:#696969	;
+	height:60%;
+	width:100%;
+
+}
+.alphard-powers h2{
+	font-family: 'Intro', sans-serif;
+	font-size:250%;
+	color:;
+}
+.alphard-powers .picture{
+	background:url(images/alphard-systems/power.png)100% 100% no-repeat;
+	position:absolute;
+	top:5%;
+	left:10%;
+	width:80%;
+	height:120%;
+}
+.alphard-subwoofers{
+	background-color:#696969	;
+	height:60%;
+	width:100%;
+}
+.alphard-subwoofers h2{
+
+}
+.alphard-subwoofers .picture{
+	
+}
+.alphard-dinamics{
+	background-color:#696969	;
+	height:60%;
+	width:100%;
+}
+.alphard-dinamics h2{
+
+}
+.alphard-dinamics .picture{
+	
+}
+.alphard-twitters{
+	background-color:#696969	;
+	height:60%;
+	width:100%;
+}
+.alphard-twitters h2{
+
+}
+.alphard-twitters .picture{
+	
+}
