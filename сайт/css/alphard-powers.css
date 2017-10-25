@@ -8,7 +8,7 @@ body,html{
 }
 .header{
 	height:18%;
-	background:url(images/alphard-systems/maxresdefault.jpg) 100% 60% no-repeat;
+	background-color:#2F4F4F;
 	background-size:cover;
 }
 .header-block{
@@ -31,4 +31,81 @@ body,html{
 	text-decoration:none;
 	color:rgba(254, 74, 6,1);
 	text-shadow: black 0 0 5px;
+}
+.header .picture{
+	background:url(images/alphard-systems/power-to-header.png) 100%  no-repeat;
+	height:50%;
+	width:50%;
+	position:absolute;
+	left:40%;
+}
+.header .text{
+	color:#FFF8DC;
+	font-family:Fixed, monospace;
+	font-size:20px;
+	text-shadow: black 0 0 5px;
+	position:absolute;
+	top:10%;
+	left:5%;
+	width:40%;
+}
+.main-part{
+	background-color:#C0C0C0;
+	height:200%;
+	width:100%;
+}
+.main-part .table{
+	background-color:#D3D3D3;
+	position:absolute;
+	left:10%;
+	right:10%;
+	top:70%;
+	width:80%;
+	height:200%;
+}
+.table .first-block{
+	background-color:#FFFFFF;
+	position:relative;
+	left:2%;
+	top:30%;
+	width:40%;
+	height:20%;
+}
+.first-block .picture{
+	background:url(images/alphard-systems/powers/DB-2000.1d.png) 50% 50% no-repeat;
+	position:relative;
+	top:10%;
+	left:8%;
+	width:80%;
+	height:60%;
+}
+.first-block .text{
+	position:relative;
+	left:10%;
+	top:10%;
+	width:80%;
+	text-align:center;
+	font-family:Fixed, monospace;
+	font-size:18px;
+}
+.first-link{
+	position:relative;
+	left:5%;
+	top:5%;
+	width:40%;
+	height:20%;
+}
+a:link.first-link {
+	color:#000000;
+	text-decoration:none;
+}
+a:visited.first-link {
+	color:#696969;
+}
+a:hover.first-link {
+	font-style:italic;
+	color:#2F4F4F;
+}
+a:active.first-link{
+	color:#006400	;
 }
