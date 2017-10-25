@@ -96,6 +96,7 @@ body,html{
 	position:absolute;
 	top:30%;
 	left:5%;
+	alink:#2B0000;
 }
 .alphard-dinamics .picture{
 	background:url(images/alphard-systems/dynamics.png) 100% no-repeat;
