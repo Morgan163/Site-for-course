@@ -34,27 +34,31 @@ body,html{
 }
 .alphard-powers{
 	position:absolute;
-	background-color:#696969	;
-	height:60%;
+	background-color:#0F0D0A	;
+	height:70%;
 	width:100%;
 
 }
 .alphard-powers h2{
 	font-family: 'Intro', sans-serif;
 	font-size:250%;
-	color:;
+	color:#006400;
+	position:absolute;
+	top:30%;
 }
 .alphard-powers .picture{
 	background:url(images/alphard-systems/power.png)100% 100% no-repeat;
 	position:absolute;
-	top:5%;
-	left:10%;
+	top:0%;
+	left:15%;
 	width:80%;
-	height:120%;
+	height:150%;
 }
 .alphard-subwoofers{
-	background-color:#696969	;
-	height:60%;
+	background-color:#696969;
+	position:absolute;
+	top:30%
+	height:70%;
 	width:100%;
 }
 .alphard-subwoofers h2{
@@ -62,7 +66,7 @@ body,html{
 }
 .alphard-subwoofers .picture{
 	
-}
+/*}
 .alphard-dinamics{
 	background-color:#696969	;
 	height:60%;
@@ -84,4 +88,4 @@ body,html{
 }
 .alphard-twitters .picture{
 	
-}
+} */
