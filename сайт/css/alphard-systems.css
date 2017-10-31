@@ -32,6 +32,12 @@ body,html{
 	color:rgba(254, 74, 6,1);
 	text-shadow: black 0 0 5px;
 }
+.first{
+	position:relative;
+	top:20%;
+	left:2%;
+	opacity:0;
+}
 .alphard-powers{
 	position:absolute;
 	background-color:#0F0D0A	;
@@ -45,7 +51,7 @@ body,html{
 	color:#006400;
 	position:absolute;
 	top:30%;
-	left:5%;
+	left:3%;
 }
 .alphard-powers .picture{
 	background:url(images/alphard-systems/power.png) 100% no-repeat;
