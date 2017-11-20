@@ -12,7 +12,7 @@ body,html{
 	background-size:cover;
 }
 .header-block{
-	height: 5%;
+	height: 10%;
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -127,3 +127,9 @@ body,html{
 .alphard-twitters .picture{
 	
 } 
+
+.author-block .header-block{
+	height: 10%;
+	width: 100%;
+	background-color:;
+}

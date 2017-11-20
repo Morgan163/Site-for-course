@@ -32,6 +32,21 @@ body,html{
 	color:rgba(254, 74, 6,1);
 	text-shadow: black 0 0 5px;
 }
+a:visited .header-title {
+text-decoration:none;
+	color:rgba(254, 74, 6,1);
+	text-shadow: black 0 0 5px;
+}
+a:hover .header-title {
+text-decoration:none;
+	color:rgba(254, 74, 6,1);
+	text-shadow: black 0 0 5px;
+}
+a:active .header-title {
+text-decoration:none;
+	color:rgba(254, 74, 6,1);
+	text-shadow: black 0 0 5px;
+}
 .header .picture{
 	background:url(images/alphard-systems/power-to-header.png) 100%  no-repeat;
 	height:50%;
@@ -66,8 +81,8 @@ body,html{
 .table .first-block{
 	background-color:#FFFFFF;
 	position:relative;
-	left:2%;
-	top:30%;
+	left:5%;
+	top:3%;
 	width:40%;
 	height:20%;
 }
@@ -77,9 +92,55 @@ body,html{
 	top:10%;
 	left:8%;
 	width:80%;
-	height:60%;
+	height:70%;
 }
 .first-block .text{
+	position:relative;
+	left:10%;
+	margin-top:0%;
+	width:80%;
+	text-align:center;
+	font-family:Fixed, monospace;
+	font-size:18px;
+}
+.first-link{
+	position:relative;
+	left:2%;
+	top:50%;
+	width:100%;
+	height:120%;
+}
+a:link {
+	color:#000000;
+	text-decoration:none;
+}
+a:visited {
+	color:#696969;
+}
+a:hover {
+	font-style:italic;
+	color:#2F4F4F;
+}
+a:active{
+	color:#006400	;
+}
+.table .second-block{
+	background-color:#FFFFFF;
+	position:relative;
+  left:55%;
+	top:-17%;
+	width:40%;
+	height:20%;
+}
+.second-block .picture{
+	background:url(images/alphard-systems/powers/alphard-ae-12000-1d-0.png) 50% 50% no-repeat;
+	position:relative;
+	top:15%;
+	left:8%;
+	width:90%;
+	height:70%;
+}
+.second-block .text{
 	position:relative;
 	left:10%;
 	top:10%;
@@ -88,24 +149,175 @@ body,html{
 	font-family:Fixed, monospace;
 	font-size:18px;
 }
-.first-link{
+.second-link{
+	position:relative;
+	left:0%;
+	top:2%;
+	width:100%;
+	height:100%;
+}
+.table .third-block{
+	background-color:#FFFFFF;
 	position:relative;
 	left:5%;
-	top:5%;
+	top:-14%;
 	width:40%;
 	height:20%;
 }
-a:link.first-link {
-	color:#000000;
-	text-decoration:none;
+.third-block .picture{
+	background:url(images/alphard-systems/powers/machete-m1500d.png) 50% 50% no-repeat;
+	position:relative;
+	top:10%;
+	left:8%;
+	width:80%;
+	height:70%;
 }
-a:visited.first-link {
-	color:#696969;
+.third-block .text{
+	position:relative;
+	left:10%;
+	top:10%;
+	width:80%;
+	text-align:center;
+	font-family:Fixed, monospace;
+	font-size:18px;
 }
-a:hover.first-link {
-	font-style:italic;
-	color:#2F4F4F;
+.third-link{
+	position:relative;
+	left:2%;
+	top:50%;
+	width:100%;
+	height:120%;
 }
-a:active.first-link{
-	color:#006400	;
+.table .fourth-block{
+	background-color:#FFFFFF;
+	position:relative;
+  left:55%;
+	top:-34%;
+	width:40%;
+	height:20%;
+}
+.fourth-block .picture{
+	background:url(images/alphard-systems/powers/Machete-m350d.png) 50% 50% no-repeat;
+	position:relative;
+	top:15%;
+	left:8%;
+	width:90%;
+	height:70%;
+}
+.fourth-block .text{
+	position:relative;
+	left:10%;
+	top:10%;
+	width:80%;
+	text-align:center;
+	font-family:Fixed, monospace;
+	font-size:18px;
+}
+.fourth-link{
+	position:relative;
+	left:0%;
+	top:2%;
+	width:100%;
+	height:100%;
+}
+.table .fifth-block{
+	background-color:#FFFFFF;
+	position:relative;
+	left:5%;
+	top:-31%;
+	width:40%;
+	height:20%;
+}
+.fifth-block .picture{
+	background:url(images/alphard-systems/powers/machete-m450d.png) 50% 50% no-repeat;
+	position:relative;
+	top:10%;
+	left:8%;
+	width:80%;
+	height:70%;
+}
+.fifth-block .text{
+	position:relative;
+	left:10%;
+	top:10%;
+	width:80%;
+	text-align:center;
+	font-family:Fixed, monospace;
+	font-size:18px;
+}
+.fifth-link{
+	position:relative;
+	left:2%;
+	top:50%;
+	width:100%;
+	height:120%;
+}
+.table .sixth-block{
+	background-color:#FFFFFF;
+	position:relative;
+  left:55%;
+	top:-51%;
+	width:40%;
+	height:20%;
+}
+.sixth-block .picture{
+	background:url(images/alphard-systems/powers/machete-m134.png) 50% 50% no-repeat;
+	position:relative;
+	top:15%;
+	left:8%;
+	width:90%;
+	height:70%;
+}
+.sixth-block .text{
+	position:relative;
+	left:10%;
+	top:10%;
+	width:80%;
+	text-align:center;
+	font-family:Fixed, monospace;
+	font-size:18px;
+}
+.sixth-link{
+	position:relative;
+	left:0%;
+	top:2%;
+	width:100%;
+	height:100%;
+}
+
+.active{
+	display:run-in;
+}
+.no-active{
+	display:none;
+}
+.first-block-description{
+	position:relative;
+	top:2%;
+	left:5%;
+}
+.second-block-description{
+	position:relative;
+	top:-18%;
+	left:55%;
+}
+.third-block-description{
+	position:relative;
+	top:-15%;
+	left:5%;
+}
+.fourth-block-description{
+	position:relative;
+	top:-35%;
+	left:55%;
+}
+.fifth-block-description{
+	position:relative;
+	top:-32%;
+	left:5%;
+}
+.sixth-block-description{
+	position:relative;
+	top:-52%;
+	left:55%;
 }

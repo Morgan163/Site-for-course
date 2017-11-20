@@ -1,0 +1,92 @@
+body,html{
+	margin: 0px;
+	padding: 0px;
+	height:200%;
+	width:100%;
+}
+.author-block{
+	position:absolute;
+	top:0%;
+	left:0%;
+	height:100%;
+	width:100%
+}
+.header-block-ofauth{
+	height: 10%;
+	width: 100%;
+	background-color:#2F4F4F;
+}
+.header-title{
+	position:absolute;
+	width:20%;
+	top:0;
+	left:5%;
+	text-decoration:none;
+	color:rgba(254, 74, 6,1);
+	font-family: 'Intro', sans-serif;
+	font-size:250%;
+}
+.header-title a{
+	text-decoration:none;
+	color:rgba(254, 74, 6,1);
+}
+.main-block{
+	position:relative;
+	top:0%;
+	height:350%;
+	width:100%;
+	background-color:#D3D3D3;
+}
+.description{
+	position:relative;
+	left:0%;
+}
+.description img{
+	position:relative;
+	margin-top:10%;
+	left:5%;
+	width:30%;
+	
+}
+
+.description h1{
+	position:absolute;
+	left:35%;
+	top:0%
+}
+.description .tth{
+	position:absolute;
+	left:55%;
+	top:20%;
+}
+.description h2{
+	position:relative;
+	left:5%;
+}
+.description pre{
+	position:absolute;
+	left:35%;
+	top:33%;
+	font-family: 'Intro', sans-serif;
+	font-size:130%;
+}
+iframe{
+	position:relative;
+	left:5%;
+}
+.text{
+	position:absolute;
+	top:200%;
+}
+.description p{
+	position:relative;
+	left:5%;
+	width:90%;
+	font-family: 'Intro', sans-serif;
+	font-size:130%;
+	
+}
+.description h3{
+	position:relative;
+	left:10%;
+}

@@ -181,6 +181,11 @@ body,html{
 	background: #fff;
 	padding: 15px 25px;
 }
+.active{
+	float:left;
+	margin-left:0px;
+	margin-top:30%;
+}
 .menu-list{
 	list-style-type:none;
 	margin:0px;
@@ -202,4 +207,45 @@ body,html{
 .menu-list li a:hover{
 	color:#222;
 }
-
+.author-block{
+	position:absolute;
+	top:0%;
+	left:0%;
+	height:100%;
+	width:100%
+}
+.header-block-ofauth{
+	height: 10%;
+	width: 100%;
+	background-color:#2F4F4F;
+}
+.main-block{
+	height:90%;
+	width:100%;
+	background-color:#D3D3D3;
+}
+form{
+	position:relative;
+	top:20%;
+	left:40%;
+	width:14%;
+	background:#FFFAFA;
+	padding:10px;
+	/* border-color:#FFFAFA;
+	border-width:medium;
+	border-style:solid; */
+}
+.authorization-button{
+	position:absolute;
+  width:20%;
+  top:0;
+	left:90%;
+	text-decoration:none;
+	color:rgba(254, 74, 6,1);
+	font-family: 'Intro', sans-serif;
+	font-size:150%;
+}
+.authorization-button a{
+	text-decoration:none;
+	color:rgba(254, 74, 6,1);
+}

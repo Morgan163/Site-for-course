@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Авторизация автозвук</title>
+	<link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/autorization.js"></script>
+</head>
+<body>
+	
+	<div class="author-block">
+		<div class="header-block-ofauth">
+			<div class="header-title">
+				<a href="index.html">
+					ALEX-AVTO
+				</a>
+			</div>
+		</div>
+		<div class="main-block">
+			<form id="regform" name="regform" action="#" onsubmit="return registerValidation()">
+				<p>
+					<input id="username" type="text" name="username" placeholder="Логин">
+				</p>
+				<p>
+					<label id="name_error"></label>
+				</p>
+				<p>
+					<input id="email" type="email" name="email" placeholder="Email">
+				</p>
+				<p>
+					<label id="email_error"></label>
+				</p>
+				<p>
+					<input id = "password" type="password" name="password" placeholder="Пароль">
+				</p>
+				<p>
+					<label id="password_error"></label>
+				</p>
+				<p>
+					<input id="password_confirmation" type="password" name="password_condirmation" placeholder="Подтверждение пароля">
+				</p>
+				<p>
+					<input type="submit" value="ВХОД">
+				</p>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
