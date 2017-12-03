@@ -5,8 +5,12 @@
 	<title>Усилители alphard</title>
 	<link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
 	<link rel="stylesheet" href="css/alphard-powers.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript"  src="js/powers.js"></script>
+	<script type="text/javascript"  src="js/menu.js"></script>
 </head>
 <body>
+	
 	<div class="all-wrap">
 		<div class="header">
 			<div class=" header-block">
@@ -26,54 +30,67 @@
 		<div class="main-part">
 			<div class="table">
 
-				<div class="first-block block">
-					<a class="first-link" href="first-power.html">
-						<div class="picture"></div>
-						<div class="text">
-							<p>Одноканальный цифровой усилитель (моноблок) Deaf Bonce DB-2000.1D</p>
-						</div>
-					</a>
-				</div>
-				<div class="first-block-description no-active">
-					<p>sdfsdfsdfsdfsdfsdfsdfds</p>
-				</div>
-				
-				<div class="second-block block">
-					<a class="second-link" href="second-power.html">
-						<div class="picture"></div>
-						<div class="text">
-							<p>Одноканальный цифровой усилитель (моноблок) AE-12000.1D</p>
-						</div>
-					</a>
-				</div>
-				<div class="second-block-description no-active">
-					<p>sdfsdfsdfsdfsdfsdfsdfds</p>
-				</div>
-				
-				<div class="third-block block">
-					<a class="third-link" href="third-power.html">
-						<div class="picture"></div>
-						<div class="text">
-							<p>Одноканальный цифровой усилитель (моноблок) Machete-M1500D</p>
-						</div>
-					</a>
-				</div>
-				<div class="third-block-description no-active">
-					<p>sdfsdfsdfsdfsdfsdfsdfds</p>
+				<div class="first-line">
+					<div class="first-block" id="first-block">
+						<a class="first-link" href="first-power.html">
+							<div class="picture"></div>
+							<div class="text">
+								<p>Одноканальный цифровой усилитель (моноблок) Deaf Bonce DB-2000.1D</p>
+							</div>
+						</a>
+					</div>
+					<div class="first-block-description no-active">
+						<pre>Мощность RMS в 1 Ом (14.4 В):1х2000 Вт
+Мощность RMS в 1 Ом (15 В):1х2700 Вт
+Мощность RMS в 2 Ом (14.4 В):1х1400 Вт
+Мощность RMS в 4 Ом (14.4 В):1х800 Вт</pre>
+					</div>
+
+					<div class="second-block block">
+						<a class="second-link" href="second-power.html">
+							<div class="picture"></div>
+							<div class="text">
+								<p>Одноканальный цифровой усилитель (моноблок) AE-12000.1D</p>
+							</div>
+						</a>
+					</div>
+					<div class="second-block-description no-active">
+						<pre>Мощность RMS в 1 Om – 12000 Вт
+Мощность RMS в 2 Om, мост – 24000 Вт</pre>
+					</div>
 				</div>
 
-				<div class="fourth-block block">
-					<a class="fourth-link" href="fourth-power.html">
-						<div class="picture"></div>
-						<div class="text">
-							<p>Одноканальный цифровой усилитель (моноблок) Machete-M350D</p>
-						</div>
-					</a>
-				</div>
-        <div class="fourth-block-description no-active">
-					<p>sdfsdfsdfsdfsdfsdfsdfds</p>
+				<div class="second-line">
+					<div class="third-block block">
+						<a class="third-link" href="third-power.html">
+							<div class="picture"></div>
+							<div class="text">
+								<p>Одноканальный цифровой усилитель (моноблок) Machete-M1500D</p>
+							</div>
+						</a>
+					</div>
+					<div class="third-block-description no-active">
+						<pre>Мощность RMS в 1 Ом (14.4 В)-1500 Вт
+Мощность RMS в 2 Ом (14.4 В)-1000 Вт
+Мощность RMS в 4 Ом (14.4 В)-600 Вт</pre>
+					</div>
+
+					<div class="fourth-block block">
+						<a class="fourth-link" href="fourth-power.html">
+							<div class="picture"></div>
+							<div class="text">
+								<p>Одноканальный цифровой усилитель (моноблок) Machete-M350D</p>
+							</div>
+						</a>
+					</div>
+					<div class="fourth-block-description no-active">
+						<pre>Мощность RMS в 1 Ом (14.4 В)	350 Вт
+Мощность RMS в 2 Ом (14.4 В)	280 Вт
+Мощность RMS в 4 Ом (14.4 В)	170 Вт</pre>
+					</div>
 				</div>
 
+				<div class="third-line">
 				<div class="fifth-block block">
 					<a class="fifth-link" href="fifth-power.html">
 						<div class="picture"></div>
@@ -83,24 +100,67 @@
 					</a>
 				</div>
 				<div class="fifth-block-description no-active">
-					<p>sdfsdfsdfsdfsdfsdfsdfds</p>
+					<pre>Мощность RMS в 1 Ом (14.4 В)-450 Вт
+Мощность RMS в 2 Ом (14.4 В)-310 Вт
+Мощность RMS в 4 Ом (14.4 В)-180 Вт</pre>
 				</div>
 
-				<div class="sixth-block block">
-					<a class="sixth-link" href="sixth-power.html">
-						<div class="picture"></div>
-						<div class="text">
-							<p>Двухканальный цифровой усилитель Machete-M134</p>
-						</div>
-					</a>
-				</div>
-				<div class="sixth-block-description no-active">
-					<p>sdfsdfsdfsdfsdfsdfsdfds</p>
-				</div>
+				
+					<div class="sixth-block block">
+						<a class="sixth-link" href="sixth-power.html">
+							<div class="picture"></div>
+							<div class="text">
+								<p>Четырехканальный цифровой усилитель Machete-M134</p>
+							</div>
+						</a>
+					</div>
+					<div class="sixth-block-description no-active">
+						<pre>Мощность RMS в 2 Ом (14.4 В):4x250 Вт
+Мощность RMS в 4 Ом (14.4 В):4x130 Вт</pre>
+					</div>
 
+				</div>
 			</div>
 		</div>
 	</div>
 	
+	<nav class="menu-block">
+		<div class="menu-visible">
+			<button class="fa fa-bars menu-button" onclick="menuFunction()">
+			</button>
+			<div class="menu-title">
+				MENU
+			</div>
+		</div>
+		<div class="menu-unvisible">
+			<div class="menu-logo"></div>
+			<div class="menu-list-block">
+				<ul class="menu-list">
+					<li><a href="alphard-systems.html">Alphard</a>
+						<ul>
+							<li><a href="alphard-powers.html">Усилители</a></li>
+							<li><a href="error.html">Сабвуферы</a></li>
+							<li><a href="error.html">Динамики</a></li>
+						</ul>
+					</li>
+					<li><a href="error.html">Kicx</a>
+						<ul>
+							<li><a href="error.html">Усилители</a></li>
+							<li><a href="error.html">Сабвуферы</a></li>
+							<li><a href="error.html">Динамики</a></li>
+						</ul>
+					</li>
+					<li><a href="error.html">Herz</a>
+						<ul>
+							<li><a href="error.html">Усилители</a></li>
+							<li><a href="error.html">Сабвуферы</a></li>
+							<li><a href="error.html">Динамики</a></li>
+						</ul>
+					</li>
+				</ul>	
+			</div>
+		</div>
+	</nav>
+
 </body>
 </html>

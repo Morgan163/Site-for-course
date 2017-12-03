@@ -3,9 +3,15 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
 	<link rel="stylesheet" href="css/first-power.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript"  src="js/copy.js"></script>
+	<script type="text/javascript"  src="js/grow.js"></script>
+	<script type="text/javascript"  src="js/menu.js"></script>
 </head>
 <body>
+	
 	<div class="author-block">
 		<div class="header-block-ofauth">
 			<div class="header-title">
@@ -16,35 +22,35 @@
 		</div>
 		<div class="main-block">
 			<div class="description">
-				<img src="css/images/alphard-systems/powers/DB-2000.1d.png" alt="DB-2000.1d">
+				<a href="#"><img src="css/images/alphard-systems/powers/DB-2000.1d.png" alt="DB-2000.1d"></a>
 				<h1>Deaf Bonce DB-2000.1D</h1>
 				<h2 class="tth">Характеристики</h2>
 				<pre>
-					Входная чувствительность:6-0.2 В
-					Выходной терминал подключения:8 GA
-					Диапазон частот:15-270 Гц
-					Класс усилителя:D
-					Количество каналов:1
-					Коэффициент демпфирования (4 Ом):200
-					Крутизна спада:24 дБ/Окт
-					Минимальная допустимая нагрузка в мостовом включении:2 Ом
-					Минимальная допустимая нагрузка на канал:1 Ом
-					Мощность RMS в 1 Ом (14.4 В):1х2000 Вт
-					Мощность RMS в 1 Ом (15 В):1х2700 Вт
-					Мощность RMS в 2 Ом (14.4 В):1х1400 Вт
-					Мощность RMS в 4 Ом (14.4 В):1х800 Вт
-					Номинал предохранителя:200 А
-					Рабочее напряжение:9-15 В
-					Размеры (ДxШxВ):400x254x64.5 мм
-					Регулировка фазы:0-180 °
-					Серия-Deaf Bonce
-					Сигнал/Шум-95 дБ
-					Усиление баса:0-9 дБ
-					Фильтр инфранизких частот:10-50 Гц
-					Фильтр низких частот:35-250 Гц
+Входная чувствительность:6-0.2 В
+Выходной терминал подключения:8 GA
+Диапазон частот:15-270 Гц
+Класс усилителя:D
+Количество каналов:1
+Коэффициент демпфирования (4 Ом):200
+Крутизна спада:24 дБ/Окт
+Минимальная допустимая нагрузка в мостовом включении:2 Ом
+Минимальная допустимая нагрузка на канал:1 Ом
+Мощность RMS в 1 Ом (14.4 В):1х2000 Вт
+Мощность RMS в 1 Ом (15 В):1х2700 Вт
+Мощность RMS в 2 Ом (14.4 В):1х1400 Вт
+Мощность RMS в 4 Ом (14.4 В):1х800 Вт
+Номинал предохранителя:200 А
+Рабочее напряжение:9-15 В
+Размеры (ДxШxВ):400x254x64.5 мм
+Регулировка фазы:0-180 °
+Серия-Deaf Bonce
+Сигнал/Шум-95 дБ
+Усиление баса:0-9 дБ
+Фильтр инфранизких частот:10-50 Гц
+Фильтр низких частот:35-250 Гц
 				</pre>
 				<div class="text">
-					<iframe width="640" height="360" src="https://www.youtube.com/embed/HbmwRVft1xw" frameborder="0" gesture="media" allowfullscreen></iframe>
+					<iframe class="video" width="640" height="360" src="https://www.youtube.com/embed/HbmwRVft1xw" frameborder="0" gesture="media" allowfullscreen></iframe>
 					<h2>Описание</h2>
 					<p>Моноблок Alphard Deaf Bonce DB-2000.1D вызывает восхищение своими размера и заложенной в нем мощностью производителем. Даже не верится что с такими габаритами возможна такая моща. В лучших традициях фирмы усилитель оснащен входом высокого уровня с автоматическим включением по наличию сигнала, что очень актуально при установке в штатные аудио-системы современных автомобилей. Встроенный кроссовер позволяет выставить срез от 50 до 400 Гц и задать усиление баса на фиксированной частоте от 0 до 12 дБ. Также есть возможность подключения внешней регулировки громкости.</p>
 					<h2>А что такое усилитель?</h2>
@@ -55,5 +61,44 @@
 				</div>
 			</div>
 		</div>
+
+		<nav class="menu-block">
+		<div class="menu-visible">
+			<button class="fa fa-bars menu-button" onclick="menuFunction()">
+			</button>
+			<div class="menu-title">
+				MENU
+			</div>
+		</div>
+		<div class="menu-unvisible">
+			<div class="menu-logo"></div>
+			<div class="menu-list-block">
+				<ul class="menu-list">
+					<li><a href="alphard-systems.html">Alphard</a>
+						<ul>
+							<li><a href="alphard-powers.html">Усилители</a></li>
+							<li><a href="error.html">Сабвуферы</a></li>
+							<li><a href="error.html">Динамики</a></li>
+						</ul>
+					</li>
+					<li><a href="error.html">Kicx</a>
+						<ul>
+							<li><a href="error.html">Усилители</a></li>
+							<li><a href="error.html">Сабвуферы</a></li>
+							<li><a href="error.html">Динамики</a></li>
+						</ul>
+					</li>
+					<li><a href="error.html">Herz</a>
+						<ul>
+							<li><a href="error.html">Усилители</a></li>
+							<li><a href="error.html">Сабвуферы</a></li>
+							<li><a href="error.html">Динамики</a></li>
+						</ul>
+					</li>
+				</ul>	
+			</div>
+		</div>
+	</nav>
 	</body>
 	</html>
+

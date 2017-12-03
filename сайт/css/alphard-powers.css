@@ -4,10 +4,10 @@ body,html{
 	height:100%;
 }
 .all-wrap{
-	height:300%;
+	height:120%;
 }
 .header{
-	height:18%;
+	height:45%;
 	background-color:#2F4F4F;
 	background-size:cover;
 }
@@ -28,22 +28,24 @@ body,html{
 	font-size:250%;
 }
 .header-title a{
+	position:relative;
+	z-index:100000;
 	text-decoration:none;
 	color:rgba(254, 74, 6,1);
 	text-shadow: black 0 0 5px;
 }
 a:visited .header-title {
-text-decoration:none;
+	text-decoration:none;
 	color:rgba(254, 74, 6,1);
 	text-shadow: black 0 0 5px;
 }
 a:hover .header-title {
-text-decoration:none;
+	text-decoration:none;
 	color:rgba(254, 74, 6,1);
 	text-shadow: black 0 0 5px;
 }
 a:active .header-title {
-text-decoration:none;
+	text-decoration:none;
 	color:rgba(254, 74, 6,1);
 	text-shadow: black 0 0 5px;
 }
@@ -78,13 +80,18 @@ text-decoration:none;
 	width:80%;
 	height:200%;
 }
+.first-line{
+	position:relative;
+	width:100%;
+	height:30%;
+}
 .table .first-block{
 	background-color:#FFFFFF;
-	position:relative;
+	position:absolute;
 	left:5%;
-	top:3%;
+	top:15%;
 	width:40%;
-	height:20%;
+	height:73%;
 }
 .first-block .picture{
 	background:url(images/alphard-systems/powers/DB-2000.1d.png) 50% 50% no-repeat;
@@ -124,13 +131,15 @@ a:hover {
 a:active{
 	color:#006400	;
 }
+
+
 .table .second-block{
 	background-color:#FFFFFF;
-	position:relative;
-  left:55%;
-	top:-17%;
+	position:absolute;
+	left:55%;
+	top:15%;
 	width:40%;
-	height:20%;
+	height:73%;
 }
 .second-block .picture{
 	background:url(images/alphard-systems/powers/alphard-ae-12000-1d-0.png) 50% 50% no-repeat;
@@ -156,13 +165,20 @@ a:active{
 	width:100%;
 	height:100%;
 }
+
+.second-line{
+	position:relative;
+	top:0%;
+	width:100%;
+	height:30%;
+}
 .table .third-block{
 	background-color:#FFFFFF;
-	position:relative;
+	position:absolute;
 	left:5%;
-	top:-14%;
+	top:15%;
 	width:40%;
-	height:20%;
+	height:73%;
 }
 .third-block .picture{
 	background:url(images/alphard-systems/powers/machete-m1500d.png) 50% 50% no-repeat;
@@ -190,11 +206,11 @@ a:active{
 }
 .table .fourth-block{
 	background-color:#FFFFFF;
-	position:relative;
-  left:55%;
-	top:-34%;
+	position:absolute;
+	left:55%;
+	top:15%;
 	width:40%;
-	height:20%;
+	height:73%;
 }
 .fourth-block .picture{
 	background:url(images/alphard-systems/powers/Machete-m350d.png) 50% 50% no-repeat;
@@ -220,13 +236,20 @@ a:active{
 	width:100%;
 	height:100%;
 }
+.third-line{
+	position:relative;
+	top:0%;
+	width:100%;
+	height:30%;
+}
+
 .table .fifth-block{
 	background-color:#FFFFFF;
-	position:relative;
+	position:absolute;
 	left:5%;
-	top:-31%;
+	top:15%;
 	width:40%;
-	height:20%;
+	height:73%;
 }
 .fifth-block .picture{
 	background:url(images/alphard-systems/powers/machete-m450d.png) 50% 50% no-repeat;
@@ -254,11 +277,11 @@ a:active{
 }
 .table .sixth-block{
 	background-color:#FFFFFF;
-	position:relative;
-  left:55%;
-	top:-51%;
+	position:absolute;
+	left:55%;
+	top:15%;
 	width:40%;
-	height:20%;
+	height:73%;
 }
 .sixth-block .picture{
 	background:url(images/alphard-systems/powers/machete-m134.png) 50% 50% no-repeat;
@@ -292,32 +315,119 @@ a:active{
 	display:none;
 }
 .first-block-description{
-	position:relative;
-	top:2%;
+	background-color:#C0C0C0;
+	position:absolute;
+	top:90%;
 	left:5%;
+	width:40%
 }
 .second-block-description{
-	position:relative;
-	top:-18%;
+	background-color:#C0C0C0;
+	position:absolute;
+	top:90%;
 	left:55%;
+	width:40%
 }
 .third-block-description{
-	position:relative;
-	top:-15%;
+	background-color:#C0C0C0;
+	position:absolute;
+	top:90%;
 	left:5%;
+	width:40%
 }
 .fourth-block-description{
-	position:relative;
-	top:-35%;
+	background-color:#C0C0C0;
+	position:absolute;
+	top:90%;
 	left:55%;
+	width:40%
 }
 .fifth-block-description{
-	position:relative;
-	top:-32%;
+	background-color:#C0C0C0;
+	position:absolute;
+	top:90%;
 	left:5%;
+	width:40%
 }
 .sixth-block-description{
-	position:relative;
-	top:-52%;
+	background-color:#C0C0C0;
+	position:absolute;
+	top:90%;
 	left:55%;
+	width:40%
+}
+iframe{
+	position:relative;
+	z-index:999;
+}
+
+.add-description{
+	position:relative;
+	width:30%;
+}
+
+.menu-block{
+	height:100%;
+	position: fixed;    
+	z-index: 9999;    
+	top: 0px;    
+	left: 0px;
+	height:100%;
+}
+.menu-title{
+	font-family: 'Intro', sans-serif;
+	color:#E0FFFF;
+}
+.menu-button{
+	color: #fff;    
+	width: 43px;    
+	height: 39px;    
+	text-align: center;    
+	font-size: 34px;        
+	background: #1c4482;    
+	padding-top: 4px;    
+	cursor: pointer;
+}
+.menu-button:hover{
+	background: #fff;
+	olor: #1c4482;
+} 
+.menu-button{
+	float:left;
+}
+.menu-list-block{
+	float:left;
+	margin-left:-1000px;
+	z-index:9999;
+	visibility: visible;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	background: #fff;
+	padding: 15px 25px;
+}
+.activeMenu{
+	float:left;
+	margin-left:0px;
+	margin-top:30%;
+}
+.menu-list{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+.menu-list li{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+.menu-list li{
+	margin-buttom:5px;
+}
+.menu-list li a{
+	font-size: 17px;
+	color: #dc0056;
+	text-decoration: none;
+}
+.menu-list li a:hover{
+	color:#222;
 }

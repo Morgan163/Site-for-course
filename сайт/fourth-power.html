@@ -4,8 +4,14 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/first-power.css">
+	<link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript"  src="js/copy.js"></script>
+	<script type="text/javascript"  src="js/grow.js"></script>
+	<script type="text/javascript"  src="js/menu.js"></script>
 </head>
 <body>
+	
 	<div class="author-block">
 		<div class="header-block-ofauth">
 			<div class="header-title">
@@ -16,32 +22,32 @@
 		</div>
 		<div class="main-block">
 			<div class="description">
-				<img src="css/images/alphard-systems/powers/Machete-m350d.png" alt="DB-2000.1d">
+				<a href="#"><img src="css/images/alphard-systems/powers/Machete-m350d.png" alt="DB-2000.1d"></a>
 				<h1>Machete M350D</h1>
 				<h2 class="tth">Характеристики</h2>
 				<pre>
-					Входная чувствительность	6-0.2 В
-					Входной терминал подключения	4 GA
-					Выходной терминал подключения	8 GA
-					Диапазон частот	20-250 Гц
-					Класс усилителя	D
-					Количество каналов	1
-					Коэффициент демпфирования (4 Ом)	150
-					Крутизна спада	24 дБ/Окт
-					Мощность RMS в 1 Ом (14.4 В)	350 Вт
-					Мощность RMS в 2 Ом (14.4 В)	280 Вт
-					Мощность RMS в 4 Ом (14.4 В)	170 Вт
-					Номинал предохранителя	30 А
-					Рабочее напряжение	9-15 В
-					Размеры (ДxШxВ)	165x165x57 мм
-					Серия	Machete
-					Сигнал/Шум	85 дБ
-					Усиление баса	0/6/12 дБ
-					Фильтр инфранизких частот	0-50 Гц
-					Фильтр низких частот	50-220 Гц
+Входная чувствительность	6-0.2 В
+Входной терминал подключения	4 GA
+Выходной терминал подключения	8 GA
+Диапазон частот	20-250 Гц
+Класс усилителя	D
+Количество каналов	1
+Коэффициент демпфирования (4 Ом)	150
+Крутизна спада	24 дБ/Окт
+Мощность RMS в 1 Ом (14.4 В)	350 Вт	
+Мощность RMS в 2 Ом (14.4 В)	280 Вт
+Мощность RMS в 4 Ом (14.4 В)	170 Вт
+Номинал предохранителя	30 А
+Рабочее напряжение	9-15 В
+Размеры (ДxШxВ)	165x165x57 мм
+Серия	Machete
+Сигнал/Шум	85 дБ
+Усиление баса	0/6/12 дБ
+Фильтр инфранизких частот	0-50 Гц
+Фильтр низких частот	50-220 Гц
 				</pre>
 				<div class="text">
-					<iframe width="640" height="360" src="https://www.youtube.com/embed/T_EQfdFMPuI" frameborder="0" gesture="media" allowfullscreen></iframe>
+					<iframe class="video" width="640" height="360" src="https://www.youtube.com/embed/T_EQfdFMPuI" frameborder="0" gesture="media" allowfullscreen></iframe>
 					<h2>Описание</h2>
 					<p>При разработке модельного ряда усилителей Machete были использованы достижения ведущих мировых компаний, лидеров в данной области, а также были учтены особенности Российского рынка и требования Российских покупателей, а так же опираясь на уникальный опыт многократных чемпионов России и Украины по звуковому давлению - Team Stradivari Original, входящих в десятку лучших спортсменов мира в области автозвука.
 					Данный продукт отвечает самым высоким современным требованиям безопасности и надежности в автомобильных музыкальных системах и создан для обеспечения бескомпромиссной музыкальной мощности, невероятно высокой производительности и надежности.</p>
@@ -53,5 +59,43 @@
 				</div>
 			</div>
 		</div>
+
+		<nav class="menu-block">
+		<div class="menu-visible">
+			<button class="fa fa-bars menu-button" onclick="menuFunction()">
+			</button>
+			<div class="menu-title">
+				MENU
+			</div>
+		</div>
+		<div class="menu-unvisible">
+			<div class="menu-logo"></div>
+			<div class="menu-list-block">
+				<ul class="menu-list">
+					<li><a href="alphard-systems.html">Alphard</a>
+						<ul>
+							<li><a href="alphard-powers.html">Усилители</a></li>
+							<li><a href="error.html">Сабвуферы</a></li>
+							<li><a href="error.html">Динамики</a></li>
+						</ul>
+					</li>
+					<li><a href="error.html">Kicx</a>
+						<ul>
+							<li><a href="error.html">Усилители</a></li>
+							<li><a href="error.html">Сабвуферы</a></li>
+							<li><a href="error.html">Динамики</a></li>
+						</ul>
+					</li>
+					<li><a href="error.html">Herz</a>
+						<ul>
+							<li><a href="error.html">Усилители</a></li>
+							<li><a href="error.html">Сабвуферы</a></li>
+							<li><a href="error.html">Динамики</a></li>
+						</ul>
+					</li>
+				</ul>	
+			</div>
+		</div>
+	</nav>
 	</body>
 	</html>

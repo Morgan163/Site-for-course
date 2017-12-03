@@ -4,8 +4,14 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/first-power.css">
+	<link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript"  src="js/copy.js"></script>
+	<script type="text/javascript"  src="js/grow.js"></script>
+	<script type="text/javascript"  src="js/menu.js"></script>
 </head>
 <body>
+	
 	<div class="author-block">
 		<div class="header-block-ofauth">
 			<div class="header-title">
@@ -16,35 +22,35 @@
 		</div>
 		<div class="main-block">
 			<div class="description">
-				<img src="css/images/alphard-systems/powers/machete-m134.png" alt="DB-2000.1d">
+				<a href="#"><img src="css/images/alphard-systems/powers/machete-m134.png" alt="DB-2000.1d"></a>
 				<h1>Machete M134</h1>
 				<h2 class="tth">Характеристики</h2>
 				<pre>
-					Входная чувствительность:6-0.2 В
-					Входной терминал подключения:4 GA
-					Выходной терминал подключения:8 GA
-					Диапазон частот:20-20000 Гц
-					Класс усилителя:AB
-					Количество каналов:4
-					Коэффициент демпфирования (4 Ом):150
-					Крутизна спада:12 дБ/Окт
-					Минимальная допустимая нагрузка в мостовом включении:4 Ом
-					Минимальная допустимая нагрузка на канал:2 Ом
-					Мощность RMS в 2 Ом (14.4 В):4x250 Вт
-					Мощность RMS в 4 Ом (14.4 В):4x130 Вт
-					Номинал предохранителя:2х40 А
-					Одновременное включение LPF и HPF:Да
-					Рабочее напряжение:9-15 В
-					Разделение каналов:55 дБ
-					Размеры (ДxШxВ):420х241х57 мм
-					Серия:Machete
-					Сигнал/Шум:105 дБ
-					Фильтр высоких частот:20-8000 Гц
-					Фильтр низких частот:50-8000 Гц
-					Эффективность (4 Ом):70 %
+Входная чувствительность:6-0.2 В
+Входной терминал подключения:4 GA
+Выходной терминал подключения:8 GA
+Диапазон частот:20-20000 Гц
+Класс усилителя:AB
+Количество каналов:4
+Коэффициент демпфирования (4 Ом):150
+Крутизна спада:12 дБ/Окт
+Минимальная допустимая нагрузка в мостовом включении:4 Ом
+Минимальная допустимая нагрузка на канал:2 Ом
+Мощность RMS в 2 Ом (14.4 В):4x250 Вт
+Мощность RMS в 4 Ом (14.4 В):4x130 Вт
+Номинал предохранителя:2х40 А
+Одновременное включение LPF и HPF:Да
+Рабочее напряжение:9-15 В
+Разделение каналов:55 дБ
+Размеры (ДxШxВ):420х241х57 мм
+Серия:Machete
+Сигнал/Шум:105 дБ
+Фильтр высоких частот:20-8000 Гц
+Фильтр низких частот:50-8000 Гц
+Эффективность (4 Ом):70 %
 				</pre>
 				<div class="text">
-					<iframe width="640" height="360" src="https://www.youtube.com/embed/LBvfQGeNKjE" frameborder="0" gesture="media" allowfullscreen></iframe>
+					<iframe class="video" width="640" height="360" src="https://www.youtube.com/embed/LBvfQGeNKjE" frameborder="0" gesture="media" allowfullscreen></iframe>
 					<h2>Описание</h2>
 					<p>Усилитель имеет много особенностей, которые выделяют его среди конкурентов, начиная от внешнего вида, до продуманных НЧ и ВЧ фильтров с возможностью одновременной их работы и регулировкой до 8 кГц.
 						Усилитель имеет 4 уровня защиты. 
@@ -59,5 +65,43 @@
 				</div>
 			</div>
 		</div>
+
+		<nav class="menu-block">
+		<div class="menu-visible">
+			<button class="fa fa-bars menu-button" onclick="menuFunction()">
+			</button>
+			<div class="menu-title">
+				MENU
+			</div>
+		</div>
+		<div class="menu-unvisible">
+			<div class="menu-logo"></div>
+			<div class="menu-list-block">
+				<ul class="menu-list">
+					<li><a href="alphard-systems.html">Alphard</a>
+						<ul>
+							<li><a href="alphard-powers.html">Усилители</a></li>
+							<li><a href="error.html">Сабвуферы</a></li>
+							<li><a href="error.html">Динамики</a></li>
+						</ul>
+					</li>
+					<li><a href="error.html">Kicx</a>
+						<ul>
+							<li><a href="error.html">Усилители</a></li>
+							<li><a href="error.html">Сабвуферы</a></li>
+							<li><a href="error.html">Динамики</a></li>
+						</ul>
+					</li>
+					<li><a href="error.html">Herz</a>
+						<ul>
+							<li><a href="error.html">Усилители</a></li>
+							<li><a href="error.html">Сабвуферы</a></li>
+							<li><a href="error.html">Динамики</a></li>
+						</ul>
+					</li>
+				</ul>	
+			</div>
+		</div>
+	</nav>
 	</body>
 	</html>

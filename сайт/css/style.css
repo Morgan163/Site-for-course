@@ -4,10 +4,10 @@ body,html{
   height:100%;
 }
 .all-wrap{
-	height:300%;
+	height:160%;
 }
 .header{
-	height:18%;
+	height:33%;
 	background:url(images/6.png);
 	background-size:cover;
 }
@@ -28,6 +28,8 @@ body,html{
 	font-size:250%;
 }
 .header-title a{
+	position:relative;
+	z-index:100000;
 	text-decoration:none;
 	color:rgba(254, 74, 6,1);
 }
@@ -53,7 +55,7 @@ body,html{
 	text-align:center;
 } */
 .second{
-	height:16%;
+	height:30%;
 }
 .second .left-second{
 	position:absolute;
@@ -70,13 +72,30 @@ body,html{
 	width:80%;
   height:50%;
 }
-.alphard-system{
+/* .alphard-system{
 	background:url(images/alphard-apocalypse-power.png) 100% 100% no-repeat;
 	position:absolute;
 	width:100%;
   height:100%;
 	left:-20%;
 	top:-10%;
+} */
+.left-second img{
+	position:relative;
+	width:60%;
+	margin-left:15%;
+	margin-top:10%;
+}
+.right-second img{
+  position:relative;
+  height:80%;
+	margin-left:40%;
+	margin-top:5%;
+}
+.right-third img{
+	width:35%;
+	margin-left:25%;
+	margin-top:7%;
 }
 .right-second{
 	background-color:#C0C0C0;
@@ -90,14 +109,14 @@ body,html{
   height:50%;
   overflow: auto;
 }
-.kicx-system{
+/* .kicx-system{
   background:url(images/kicx-sub.png)100% 100% no-repeat;
 	position:absolute;
 	width:80%;
   height:80%;
 	left:0%;
 	top:0%;
-}
+} */
 .second .right-second{
 	position:absolute;
 	right:0px;
@@ -106,13 +125,12 @@ body,html{
 	height:50%;
 }
 .third{
-	
-	height:25%;
+	height:15%;
 	width:100%;
 }
 .third .left-third{
 	background-color:rgba(0, 0, 0,1);
-	height:70%;
+	height:60%;
 	width:35%;
 	position:absolute;
 	left:0px;
@@ -127,86 +145,23 @@ body,html{
 }
 .third .right-third{
 	background-color:rgba(254, 74, 6,1);
-	height:70%;
+	height:60%;
 	width:65%;
 	position:absolute;
 	right:0px;
 }
-.right-third .hertz-system{
+/* .right-third .hertz-system{
 	position:absolute;
 	background:url(images/hertz-audio.png)100% 100% no-repeat;
 	width:80%;
 	height:100%;
 	left:-10%;
 	top:0%;
-}
+} */
 
 
 
-.menu-block{
-	height:100%;
-	position: fixed;    
-	z-index: 9999;    
-	top: 0px;    
-	left: 0px;
-	height:100%;
-}
-.menu-title{
-	font-family: 'Intro', sans-serif;
-	color:#E0FFFF;
-}
-.menu-button{
-	color: #fff;    
-	width: 43px;    
-	height: 39px;    
-	text-align: center;    
-	font-size: 34px;        
-	background: #1c4482;    
-	padding-top: 4px;    
-	cursor: pointer;
-}
-.menu-button:hover{
-	background: #fff;
-	olor: #1c4482;
-} 
-.menu-button{
-	float:left;
-}
-.menu-list-block{
-	float:left;
-	margin-left:-1000px;
-	visibility: visible;
-	transition: all 0.3s ease;
-	-webkit-transition: all 0.3s ease;
-	background: #fff;
-	padding: 15px 25px;
-}
-.active{
-	float:left;
-	margin-left:0px;
-	margin-top:30%;
-}
-.menu-list{
-	list-style-type:none;
-	margin:0px;
-	padding:0px;
-}
-.menu-list li{
-	list-style-type:none;
-	margin:0px;
-	padding:0px;
-}
-.menu-list li{
-	margin-buttom:5px;
-}
-.menu-list li a{
-	font-size: 17px;
-	color: #dc0056;
-	text-decoration: none;
-}
-.menu-list li a:hover{
-	color:#222;
-}
+
 .author-block{
 	position:absolute;
 	top:0%;
@@ -248,4 +203,79 @@ form{
 .authorization-button a{
 	text-decoration:none;
 	color:rgba(254, 74, 6,1);
+}
+
+iframe{
+	position:relative;
+	z-index:999;
+}
+.menu-block{
+	height:100%;
+	position: fixed;    
+	z-index: 9999;    
+	top: 0px;    
+	left: 0px;
+	height:100%;
+}
+.menu-title{
+	font-family: 'Intro', sans-serif;
+	color:#E0FFFF;
+}
+.menu-button{
+	color: #fff;    
+	width: 43px;    
+	height: 39px;    
+	text-align: center;    
+	font-size: 34px;        
+	background: #1c4482;    
+	padding-top: 4px;    
+	cursor: pointer;
+}
+.menu-button:hover{
+	background: #fff;
+	olor: #1c4482;
+} 
+.menu-button{
+	float:left;
+}
+.menu-list-block{
+	float:left;
+	margin-left:-1000px;
+	z-index:9999;
+	visibility: visible;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	background: #fff;
+	padding: 15px 25px;
+}
+.activeMenu{
+	float:left;
+	margin-left:0px;
+	margin-top:30%;
+}
+.menu-list{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+.menu-list li{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+.menu-list li{
+	margin-buttom:5px;
+}
+.menu-list li a{
+	font-size: 17px;
+	color: #dc0056;
+	text-decoration: none;
+}
+.menu-list li a:hover{
+	color:#222;
+}
+.error p{
+	position:relative;
+	margin-left:0%;
+	text-align:center;
 }

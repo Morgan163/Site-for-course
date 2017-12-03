@@ -4,7 +4,7 @@ body,html{
 	height:100%;
 }
 .all-wrap{
-	height:300%;
+	height:250%;
 }
 .header{
 	height:18%;
@@ -12,7 +12,7 @@ body,html{
 	background-size:cover;
 }
 .header-block{
-	height: 10%;
+	height: 5%;
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -28,6 +28,8 @@ body,html{
 	font-size:250%;
 }
 .header-title a{
+	position:relative;
+	z-index:100000;
 	text-decoration:none;
 	color:rgba(254, 74, 6,1);
 	text-shadow: black 0 0 5px;
@@ -41,7 +43,7 @@ body,html{
 .alphard-powers{
 	position:absolute;
 	background-color:#0F0D0A	;
-	height:70%;
+	height:80%;
 	width:100%;
 
 }
@@ -51,7 +53,14 @@ body,html{
 	color:#006400;
 	position:absolute;
 	top:30%;
-	left:3%;
+	left:17%;
+}
+.alphard-powers img{
+	position:absolute;
+	top:-15%;
+	left:40%;
+	width:50%;
+	//height:110%;
 }
 .alphard-powers .picture{
 	background:url(images/alphard-systems/power.png) 100% no-repeat;
@@ -77,6 +86,12 @@ body,html{
 	top:30%;
 	left:50%;
 }
+.alphard-subwoofers img{
+	position:absolute;
+	top:2%;
+	left:10%;
+	width:30%;
+}
 .alphard-subwoofers .picture{
 	background:url(images/alphard-systems/subwoofer.png) 100% no-repeat;
 	position:absolute;
@@ -101,14 +116,14 @@ body,html{
 	color:#006400;
 	position:absolute;
 	top:30%;
-	left:5%;
+	left:17%;
 	alink:#2B0000;
 }
 .alphard-dinamics .picture{
 	background:url(images/alphard-systems/dynamics.png) 100% no-repeat;
 	position:absolute;
 	top:0%;
-	left:45%;
+	left:40%;
 	width:46%;
 	height:80%;
 }
@@ -127,9 +142,73 @@ body,html{
 .alphard-twitters .picture{
 	
 } 
+iframe{
+	position:relative;
+	z-index:999;
+}
 
-.author-block .header-block{
-	height: 10%;
-	width: 100%;
-	background-color:;
+.menu-block{
+	height:100%;
+	position: fixed;    
+	z-index: 9999;    
+	top: 0px;    
+	left: 0px;
+	height:100%;
+}
+.menu-title{
+	font-family: 'Intro', sans-serif;
+	color:#E0FFFF;
+}
+.menu-button{
+	color: #fff;    
+	width: 43px;    
+	height: 39px;    
+	text-align: center;    
+	font-size: 34px;        
+	background: #1c4482;    
+	padding-top: 4px;    
+	cursor: pointer;
+}
+.menu-button:hover{
+	background: #fff;
+	olor: #1c4482;
+} 
+.menu-button{
+	float:left;
+}
+.menu-list-block{
+	float:left;
+	margin-left:-1000px;
+	z-index:9999;
+	visibility: visible;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	background: #fff;
+	padding: 15px 25px;
+}
+.activeMenu{
+	float:left;
+	margin-left:0px;
+	margin-top:30%;
+}
+.menu-list{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+.menu-list li{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+.menu-list li{
+	margin-buttom:5px;
+}
+.menu-list li a{
+	font-size: 17px;
+	color: #dc0056;
+	text-decoration: none;
+}
+.menu-list li a:hover{
+	color:#222;
 }

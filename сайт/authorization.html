@@ -3,11 +3,16 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Авторизация автозвук</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/jquery.maskedinput.js"></script>
 	<link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
 	<link rel="stylesheet" href="css/style.css">
 	<script type="text/javascript" src="js/autorization.js"></script>
+	<script type="text/javascript"  src="js/menu.js"></script>
+	
 </head>
 <body>
+	
 	
 	<div class="author-block">
 		<div class="header-block-ofauth">
@@ -31,20 +36,77 @@
 				<p>
 					<label id="email_error"></label>
 				</p>
-				<p>
-					<input id = "password" type="password" name="password" placeholder="Пароль">
-				</p>
-				<p>
-					<label id="password_error"></label>
-				</p>
-				<p>
-					<input id="password_confirmation" type="password" name="password_condirmation" placeholder="Подтверждение пароля">
-				</p>
-				<p>
-					<input type="submit" value="ВХОД">
-				</p>
-			</form>
+				<select id="country" class="form-control"> 
+					<option value="ru"><img src="">Россия +7 (9XX)</option> 
+					<option value="ua">Украина +380 (XX)</option> 
+					<option value="by">Белоруссия +375 (XX)</option> 
+					<option value="kz6"><img src="">Казахстан +7 (6XX)</option> 
+					<option value="kz7"><img src="">Казахстан +7 (7XX)</option> 
+				</select> 
+			<p> 
+				<input type="text" id="phone" name="phone" class="placeholder" placeholder="Ваш телефон..." /> 
+			</p> 
+			<!-- <p>
+				<input id="phoneNumber" type="text" name="phoneNumber" placeholder="Номер телефона">
+			</p> -->
+			<p>
+				<label id="error_phoneNumber"></label>
+			</p>
+			<p>
+				<label id="email_error"></label>
+			</p>
+			<p>
+				<input id = "password" type="password" name="password" placeholder="Пароль">
+			</p>
+			<p>
+				<label id="password_error"></label>
+			</p>
+			<p>
+				<input id="password_confirmation" type="password" name="password_condirmation" placeholder="Подтверждение пароля">
+			</p>
+			<p>
+				<input type="submit" value="ВХОД">
+			</p>
+		</form>
+	</div>
+</div>
+
+<nav class="menu-block">
+	<div class="menu-visible">
+		<button class="fa fa-bars menu-button" onclick="menuFunction()">
+		</button>
+		<div class="menu-title">
+			MENU
 		</div>
 	</div>
+	<div class="menu-unvisible">
+		<div class="menu-logo"></div>
+		<div class="menu-list-block">
+			<ul class="menu-list">
+				<li><a href="alphard-systems.html">Alphard</a>
+					<ul>
+						<li><a href="alphard-powers.html">Усилители</a></li>
+						<li><a href="error.html">Сабвуферы</a></li>
+						<li><a href="error.html">Динамики</a></li>
+					</ul>
+				</li>
+				<li><a href="error.html">Kicx</a>
+					<ul>
+						<li><a href="error.html">Усилители</a></li>
+						<li><a href="error.html">Сабвуферы</a></li>
+						<li><a href="error.html">Динамики</a></li>
+					</ul>
+				</li>
+				<li><a href="error.html">Herz</a>
+					<ul>
+						<li><a href="error.html">Усилители</a></li>
+						<li><a href="error.html">Сабвуферы</a></li>
+						<li><a href="error.html">Динамики</a></li>
+					</ul>
+				</li>
+			</ul>	
+		</div>
+	</div>
+</nav>
 </body>
 </html>
